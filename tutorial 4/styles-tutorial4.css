@@ -1,0 +1,53 @@
+/* h1 { 
+    color: red;
+    background-color: orange;
+    font-size: 99px;
+    text-decoration: underline;
+    font-family: Arial;
+    text-align: center;
+} 
+p {
+    color:grey;
+    font-family: fantasy;
+    line-height: 30px;
+    letter-spacing: 3px;
+    column-count: 3;
+    column-gap: 40px;
+}
+h2 {
+    color: red;
+}
+ul {
+    border: 12px orangered dashed;
+    border-top: 5px dotted green;
+    /* color: green; 
+    background-color: orange;
+    text-decoration: wavy;
+    text-align: left;
+    border-width: 4px;
+    border-style: solid;
+}
+li{
+    list-style-type: square;
+    /* list-style-type: none; */
+    /*text-shadow: 2px 2px green; /*text shadow*/
+    /*text-shadow: 3px 3px #b9b5c4;
+}
+a {
+    color: blue;
+}*/
+
+/*span {
+    display: block;     /*inline elements to block and vice versa
+}*/
+div {
+    border: 4px solid red;
+    margin: 20px;
+    padding: 30px;
+}
+span {
+    display: inline-block;
+    border: 5px dotted green;
+    margin: 35px;
+    padding: 35px;
+}
