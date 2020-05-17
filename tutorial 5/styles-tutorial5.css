@@ -1,0 +1,65 @@
+/* div.correction {
+    color: red;
+}
+p.correction {
+    color:#084e08;    /*using classes to add properties to different lines or blocks of code
+}   
+p.correction.mistake {
+    color: indigo;
+}
+div#classy{
+    border: indigo solid 6px;  /* id can be used in css , but only one id name can be used in a single page
+    margin: 20px;
+    padding: 20px;
+}*/
+/* div p {
+    border-top: solid violet 5px;
+    color: green;
+}
+div .correction{    /*basically means to style an block of line which has a class inside the div. The space is imp for this*/
+    /* color: pink
+}
+a[href = "www.facebook.com"] {
+    background-color: rebeccapurple;
+    border: red 10px dotted;
+}
+a[href*= "google"] {    /* the * is such that the it checks for the website address with the name "google" in it*/
+    /* color: salmon;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+} */
+/* a[href$=".co.in"] {
+    border: seagreen 5px solid;
+    background-color: yellow;   /*The $ used here along with href will make css search for the last text whcih is .com here and do the same*/
+    /* font-weight:bold ;
+    text-decoration: none;  
+}    */
+
+/* In  inheritance , only things like color , font etc are inherited to the lines or elememnts inside the parent element.
+    Things like margin , border etc are not inherited */
+
+div {
+    color: orangered;
+    font-weight: bold;
+    border: rebeccapurple 12px solid;
+    margin: 40px green;
+    padding: 40px;
+}
+p {
+    border: inherit;
+    margin: inherit;
+    color: #5ba313;
+}
+h1 {
+    border: inherit;   
+}
+h2 {
+    border: inherit;
+}
+ul {
+    border: inherit;
+}
+a {
+    border: inherit;
+}
