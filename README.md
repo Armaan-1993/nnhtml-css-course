@@ -1,5 +1,5 @@
 # nnhtml-css-course
-Tutorial 6 - Semantic Tags:
+TUTORIAL 6 - Semantic Tags:
 
 *used to let the browser of what exactly our code is written for.
 
