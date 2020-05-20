@@ -1,5 +1,5 @@
 # nnhtml-css-course
-TUTORIAL 6 - Semantic Tags:
+#TUTORIAL 6 - Semantic Tags:
 
 *used to let the browser of what exactly our code is written for.
 
@@ -31,7 +31,7 @@ imp (10:06) - A list of images can be shown by placing them in an ```<li>``` tag
 imp (12:46) - We dont always need to use the submit button.You just need to click enter after submitting every info.
 
 
-TUTORIAL 7 - Chrome Developer Tools
+#TUTORIAL 7 - Chrome Developer Tools:
 
 
 * The "inspect" option provides an overview of all the code used in the webpage.
