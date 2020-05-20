@@ -11,7 +11,7 @@ eg:
 </div>
 ```
 
-Here the browser doesn't what the lines inside the <p> tags are meant for.
+Here the browser doesn't what the lines inside the ```<p>``` tags are meant for.
 
 The types of semantic tags are:
 
