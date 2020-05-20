@@ -27,4 +27,5 @@ The types of semantic tags are:
 * ```<nav>``` tag (07:08) : Used for naviagation purposes inside the page .
 
 imp (10:06) - A list of images can be shown by placing them in an ```<li>``` tag , inside an ```<ul>``` tag. 
+
 imp (12:46) - We dont always need to use the submit button.You just need to click enter after submitting every info.
