@@ -52,4 +52,38 @@ imp (07:30) - After editing the page , do not refresh the page until all your ed
       You can make the saves permanent by going to the files system and adding the folder to the workspace.
 * The device preview button can show you how exactly the web page you are working on will be displayed on different devices.
 
-#TUTORIAL 8
+
+TUTORIAL 8 - Positioning and Layout:
+
+Types of elements based on position:
+
+* Static - The element is static and no property of positioning applies to it
+* Relative - This allows the element to be shifted with respect to the original position of the element.
+	eg: 20px right , 20 px left 
+```
+header {
+	position : relative;
+	margin - left: 200px;
+}
+```
+imp = Using margins here means that the element is being shifted that many pixels away from wherever mentioned.
+	eg: ```margin - left: 100px;``` is such that the element is being shifted 100px away from the top
+
+It can move anything you want relative to the position of the parent element.
+
+* Fixed: Keeps an element as fixed.
+	eg: 0 px to the top , 0px to the left makes an element stay fixed even when we scroll the page down and up. It does not move
+* Absolute: Lets you position a child elememnt with respect to the position of a parent element which also has been given a property.
+
+
+*To Adjust the resolution of an image:
+
+eg:
+
+```
+.banner img {
+	max-width:100%          
+}
+```
+The "img" is used here because the image is inside the class "banner" and inside the ```img``` tag.
+The property max-width lets you adjust the resolution.
