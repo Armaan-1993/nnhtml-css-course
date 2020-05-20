@@ -15,7 +15,7 @@ Here the browser doesn't what the lines inside the <p> tags are meant for.
 
 The types of semantic tags are:
 
-* "<main>" tag - It is used to include the main content of the webpage.
+* ```<main>``` tag - It is used to include the main content of the webpage.
 * <section> tag - Used to define a specific section of the webpage.
 	eg: contacts , address  etc and other specific sections.
 * <article> tag: Used to define an article like content.
