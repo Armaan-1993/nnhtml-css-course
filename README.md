@@ -53,7 +53,7 @@ imp (07:30) - After editing the page , do not refresh the page until all your ed
 * The device preview button can show you how exactly the web page you are working on will be displayed on different devices.
 
 
-TUTORIAL 8 - Positioning and Layout:
+#TUTORIAL 8 - Positioning and Layout:
 
 Types of elements based on position:
 
