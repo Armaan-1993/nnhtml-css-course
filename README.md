@@ -44,3 +44,12 @@ Uses:
 * (2:30) - "Hide" or "delete" elements by right clicking them.
 * (2:44) - "Edit" or "add" attribute options .
 * (3:55) - CSS styling can also be done. This can be done by either editting the code in the "elements.code" tab
+imp (04:23) - When a code/property is overwritten , the property appears striked off.
+imp (04:47) - We can uncheck different properties to find out the error/reason for not getting the appropriate result.
+* The "sources" tab lets you see the files used in the project. You can also edit your code by double clicking those files.
+	eg: the html file , the css file etc
+imp (07:30) - After editing the page , do not refresh the page until all your edits have been saved to your code in the editor.
+      You can make the saves permanent by going to the files system and adding the folder to the workspace.
+* The device preview button can show you how exactly the web page you are working on will be displayed on different devices.
+
+#TUTORIAL 8
