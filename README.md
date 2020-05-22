@@ -155,3 +155,17 @@ the width so that the alignemnt of the page doesnt change when you change the re
 
 ##(32:50) - Aligning and resizing images in ```li``` tags - 
 They do not appear as inline block even after appliying the display property of inine-block on them## - Need to clarify
+
+
+* To provide attributes to elements inside a form tag , you dont exactly need to use a div or a class , you can use the form 
+and input like this:
+	eg:
+		```
+		form input {
+    margin: 20px , 0;
+    padding: 10px , 45px;
+    font-size: 23px;
+    border-radius: 34px;
+    border: 4px rgb(255, 254, 254) solid;
+}
+```
