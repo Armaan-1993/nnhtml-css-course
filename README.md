@@ -151,5 +151,5 @@ This is due to the presence of the padding which adds up to the total width of t
 to adjust them , we use the use ```box - sizing: border-box``` code. It means it basically it will incorporate the padding along with 
 the width so that the alignemnt of the page doesnt change when you change the resolution.
 
-##(32:50) - Aligning and resizing images in ```li``` tages - 
+##(32:50) - Aligning and resizing images in ```li``` tags - 
 They do not appear as inline block even after appliying the display property of inine-block on them## - Need to clarify
