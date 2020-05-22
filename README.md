@@ -160,6 +160,8 @@ They do not appear as inline block even after appliying the display property of 
 * To provide attributes to elements inside a form tag , you dont exactly need to use a div or a class , you can use the form 
 and input like this:
 	eg:
+	
+	
 		```
 		form input {
     margin: 20px , 0;
