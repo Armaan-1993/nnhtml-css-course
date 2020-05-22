@@ -137,8 +137,7 @@ Hence ```max-width``` , ```margin: 0 auto``` , etc are nice ways to centralise a
 	position: sticky;
 	top: 100px;
 ```
-	Here , the scrolling will stop as the element will reach 100 pixels from the top.
-
+Here , the scrolling will stop as the element will reach 100 pixels from the top.
 * In order to apply propertiies to the entire body and the tags which are in the body , we can use the tags in a single line likee this.
 
 ```
