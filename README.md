@@ -172,4 +172,4 @@ and input like this:
 }
 ```
 
-#TOTORIAL 9:
+#TUTORIAL 9 - Pseudo Classes and Elements:
