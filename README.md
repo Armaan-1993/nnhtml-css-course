@@ -291,3 +291,5 @@ p::after {
 
 Here , the ```content: "..."``` is a property used to add anything , after or before an element or a line.
 
+#TUTORIAL 10: Media Queries:
+
