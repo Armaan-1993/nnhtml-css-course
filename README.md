@@ -101,11 +101,13 @@ the banner.
 VERY IMPORTANT: 
 In orde to reach a tag within a class , just call that tag withhin a the class.
 	eg:
+	
 	```
 	.banner h2 span {
 	font-size: 100px;
 	}
 	```
+	
 Also, you can use the pixellation value "em" instead of pixels. 
 This is used when you can inherit a paremt pixel value . Here , 1.3 em = 1.3  * the parent pixel value.
 
