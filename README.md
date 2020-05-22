@@ -172,3 +172,122 @@ and input like this:
 ```
 
 #TUTORIAL 9 - Pseudo Classes and Elements:
+
+
+Pseudo classes are attributes that show extra properties to the to the elements. These extra properties can be displayed
+by using pseudo classes.
+Pseudo classes are denoted by a ":".
+
+The different pseudo classes are:
+
+* Hover:
+
+It is used to display a property when you hover over the element.
+It can be used by the following format.
+eg:
+
+```
+nav li a:hover{
+    text-decoration: underline;
+    background-color: yellow;
+    padding: 5px;
+}
+```
+
+* Focus:
+
+ It is used to show that an element is currently in focus. eg: When we click on an input tag like email so as enter an id , it 
+ is in focus.
+
+eg:
+
+```
+form input:focus {
+border: 5px grey dotted;
+outline:none;
+}
+```
+Here , the outline property is used to remove the outline from the email input tab.
+
+* Valid:
+
+It is used to show if an element (data inputted) is valid or not.
+It is mainly used in the case of input tags ie to display something if the entered data is valid.
+
+eg:
+
+```
+form input:valid {
+    border: 5px solid green;
+}
+```
+* First - Child:
+
+It is used to target the first element on a list.  
+
+eg:
+
+```
+nav li:first-child {
+    border: 3px solid red; 
+} 
+```
+
+// check w3 schools for many pseudo classes.
+
+*Pseudo Elements: (check w3 schools for different pseudo elements as well)
+
+Pesudo elements allow us to add a dynamic property to an element. We can also insert a content or target a specific content inside 
+a tag.
+
+Pseudo elements are denoted by "::".
+
+Soome of the different pseudo elements are:
+
+* first-line : It targets the first line of an element or paragraph or whatever is in a tag.
+
+eg:
+
+```
+article p::first-line {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+```
+
+*first-letter : It targets the first letter of an element or a line in a tag.
+
+eg:
+
+```
+section p::first-letter {
+    font-weight: bold;
+}
+```
+
+* selection:
+
+It targets the selected portion of an element. This is used to display a propert defined when you select a portion in the page.
+
+eg:
+
+```
+p::selection {
+    background-color: rgb(235, 57, 57);
+    color: white;
+}
+```
+* ::after and ::before elements:
+
+They are used to add anything after or before a specific portion of the page.
+
+eg:
+```
+p::after {
+    content: "Yes!!";
+    font-size: 6px;
+}
+```
+
+Here , the ```content: "..."``` is a property used to add anything , after or before an element or a line.
+
