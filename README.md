@@ -87,3 +87,69 @@ eg:
 ```
 The "img" is used here because the image is inside the class "banner" and inside the ```img``` tag.
 The property max-width lets you adjust the resolution.
+* When you move an element keeping it position relative , the space it was originally in is retained. But when you use absolute 
+positioning with its parent moved relatively , then we see that the element does not retain its originl position.
+
+imp => Using o=positon properties like left , top etc will postion the element that many pixels from the left or top . 
+It is not similar to 
+as using left or top margin positioning.
+
+Here instead of using pixels , we use % as we do not want the welcome element to actually change its size as we change the siz of 
+the banner. 
+
+ 
+VERY IMPORTANT: 
+In orde to reach a tag within a class , just call that tag withhin a the class.
+	eg:
+	```
+	.banner h2 span {
+	font-size: 100px;
+	}
+	```
+Also, you can use the pixellation value "em" instead of pixels. 
+This is used when you can inherit a paremt pixel value . Here , 1.3 em = 1.3  * the parent pixel value.
+
+
+
+* Using Fixed positioning is such that the elemnt will remain fixed even when the whole page is scrolled up or down.
+ Here  , we use the padding ( 6px , 12px) in such a way that the 6px denotes the top and bottom padding while the 12px denotes the
+bottom padding. 
+After using fixed positioning , we can see that the element is fixed inside the image  "banner.png". So in order to bring it out to visibility, 
+we use the property ```z-index```. It is used as ```z-index: 1``` here.
+As for the h1 tag element "Mario" , we use different properties to align them property.We also use the inline-block display to make
+them be displayed  as a block but inline.
+(* Using ```header``` tag will let you use the entire area.)
+
+Here we also use the property ```border-radius``` to make a curved like edge to the border. Increasing the pixels will increase 
+the curve.
+
+* ```white-space: nowrap``` is simply a property that means that all the elements of the parent element must come in a straight line .
+* ```width: 25%``` means the same as the usual width except it is in % rather than in pixels.
+* ```margin: 0 auto``` means that the browser will automatically adjust the margin from the left and right.
+* ```max-width: 1200px``` is also same as width.
+Hence ```max-width``` , ```margin: 0 auto``` , etc are nice ways to centralise an element.
+* ```position: sticky``` is used to make the element fix at after it reaches a particuular distance in pixels from whatever side mentioned.
+
+	eg:
+```
+	position: sticky;
+	top: 100px;
+```
+	Here , the scrolling will stop as the element will reach 100 pixels from the top.
+
+* In order to apply propertiies to the entire body and the tags which are in the body , we can use the tags in a single line likee this.
+
+```
+	body,h1,h2,ul,li,a {
+    	margin: 0;
+    	padding: 0;
+    	font-family: Arial;
+	}
+```
+* When we reduce the resolutuion % (to mobile devices) of the entire page , we see that some of the elements change their alignment , width etc. 
+This is due to the presence of the padding which adds up to the total width of the element, So in order
+to adjust them , we use the use ```box - sizing: border-box``` code. It means it basically it will incorporate the padding along with 
+the width so that the alignemnt of the page doesnt change when you change the resolution.
+
+##(32:50) - Aligning and resizing images in ```li``` tages - 
+They do not appear as inline block even after appliying the display property of inine-block on them## - Need to clarify
