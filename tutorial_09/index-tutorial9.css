@@ -1,0 +1,174 @@
+/* header {
+    position: static;
+} */
+/* header {
+    position: relative;
+    margin-left: 200px;
+} */
+body,h1,h2,ul,li,a {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+header {
+    font-size: 20px;
+    background-color: orangered;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+
+}
+header h1 {
+    font-size: 50px;
+    border: 8px white solid;
+    display: inline-block;
+    padding: 6px , 12px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.banner  {
+    position: relative;
+}
+.banner img {
+    max-width: 100%;         /*we need to position "welcome to mario club". Make sure that the parent is given a property is not static*/
+}
+.banner .welcome {
+    position: absolute;
+    background-color: orange;
+    color: white;
+    padding: 30px;
+    left: 0px;
+    top: 30%;  
+}
+.banner h2 {
+    font-size: 75px;
+}
+/* .banner h2 span {
+    font-size: 100px;
+} */
+.banner h2 span {
+    font-size: 1.4em;
+}
+nav {
+    padding: 40px;
+    background-color: grey;
+    position: sticky;
+    top: 100px;
+    margin: 0px;
+    right: 0px;
+}
+nav ul {
+    white-space: nowrap;
+    max-width: 900px;
+    margin: 0 auto;
+}
+nav li {
+    width: 25%;
+    display: inline-block;
+    font-size: 30px;
+} 
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+ul li .join {
+    color: red;
+}
+main {
+    max-width: 100%;
+    width: 1200px;
+    margin: 80px auto;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+article h2 {
+    color: red;
+    font-size: 48px;
+}
+article p {
+    line-height: 2em;
+    color: grey;
+}
+.images {
+    text-align: center;
+    margin: 80px ,0;
+    white-space: nowrap;
+}
+.images li {
+    display: inline-block;
+    width: 40%;
+    margin: 20px ,5%;
+}
+.images li img {
+    max-width: 100%;
+}
+section.join {
+    background-color: rgb(228, 217, 217);
+    text-align: center;
+    font-size: 20px;
+    padding: 60px, 20px;
+    color: rgb(104, 99, 99);
+}
+.join h2 {
+    font-size: 40px;
+}
+form input {
+    margin: 20px , 0;
+    padding: 10px , 45px;
+    font-size: 23px;
+    border-radius: 34px;
+    border: 4px rgb(255, 254, 254) solid;
+}
+footer {
+    font-size: 12px;
+    color: white;
+    background-color: red;
+    padding: 10px;
+    text-align: center;
+}
+
+/* pseudo classes */
+
+nav li a:hover{
+    text-decoration: underline;
+    background-color: yellow;
+    padding: 5px;
+}
+.images li :hover {
+    position: relative;
+    bottom: -5px;
+}
+form input:focus {
+    border: 5px grey dotted;
+    outline:none;
+}
+form input:valid {
+    border: 5px solid green;
+}
+/* nav li:first-child {
+    border: 3px solid red; 
+} */ 
+article p::first-line {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+section p::first-letter {
+    font-weight: bold;
+}
+/* section p::selection {
+    background-color: rgb(235, 57, 57);
+    color: white;
+} */
+p::selection {
+    background-color: rgb(235, 57, 57);
+    color: white;
+}
+p::after {
+    content: "Yes!!";
+    font-size: 6px;  
+}
