@@ -170,5 +170,5 @@ p::selection {
 }
 p::after {
     content: "Yes!!";
-    font-size: 6px;
+    font-size: 6px;  
 }
