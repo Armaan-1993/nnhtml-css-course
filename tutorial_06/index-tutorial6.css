@@ -1,0 +1,13 @@
+/* header {
+    position: static;
+} */
+/* header {
+    position: relative;
+    margin-left: 200px;
+} */
+.banner  {
+    position: relative;
+}
+.banner img {
+    max-width: 100%;         /*we need to position "welcome to mario club". Make sure that the parent is given a property is not static*/
+}
