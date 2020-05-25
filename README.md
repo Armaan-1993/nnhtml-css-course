@@ -1,5 +1,5 @@
 # nnhtml-css-course
-#TUTORIAL 6 - Semantic Tags:
+# TUTORIAL 6 - Semantic Tags:
 
 *used to let the browser of what exactly our code is written for.
 
@@ -31,7 +31,7 @@ imp (10:06) - A list of images can be shown by placing them in an ```<li>``` tag
 imp (12:46) - We dont always need to use the submit button.You just need to click enter after submitting every info.
 
 
-#TUTORIAL 7 - Chrome Developer Tools:
+# TUTORIAL 7 - Chrome Developer Tools:
 
 
 * The "inspect" option provides an overview of all the code used in the webpage.
@@ -53,7 +53,7 @@ imp (07:30) - After editing the page , do not refresh the page until all your ed
 * The device preview button can show you how exactly the web page you are working on will be displayed on different devices.
 
 
-#TUTORIAL 8 - Positioning and Layout:
+# TUTORIAL 8 - Positioning and Layout:
 
 Types of elements based on position:
 
@@ -171,7 +171,7 @@ and input like this:
 }
 ```
 
-#TUTORIAL 9 - Pseudo Classes and Elements:
+# TUTORIAL 9 - Pseudo Classes and Elements:
 
 
 Pseudo classes are attributes that show extra properties to the to the elements. These extra properties can be displayed
@@ -291,7 +291,7 @@ p::after {
 
 Here , the ```content: "..."``` is a property used to add anything , after or before an element or a line.
 
-#TUTORIAL 10: Media Queries:
+# TUTORIAL 10: Media Queries:
 
 Media queries are fucntions uses to make the tags and elements responsive.
 
@@ -311,10 +311,10 @@ The syntax of media query used it:
 ```
 
 
-CSS FLEXBOX:
+# CSS FLEXBOX:
 
 
-#TUTORIAL 1:
+# TUTORIAL 1:
 
 * Flexbox are display types used to make css aligning and display properties a lot easier.
 Its used to control the size , position , spacing od elememnts etc.
@@ -324,7 +324,7 @@ children or flex items.
 
 They are very responsive as well.
 
-#TUTORIAL 2 - Flex Containers:
+# TUTORIAL 2 - Flex Containers:
 
 * The flex properties are applied relative to the parent flex container , through which the properties will be applied to the flex items
 as well.
@@ -345,7 +345,7 @@ display : flex;
 Thus all the elements inside the div will have the flex property. It will display the  minimum width of the elements.
 (In case of the example we did , the three flex elements will be displayed in a row each with the specified minimum width of 100px)
 
-#TUTORIAL 3 - Flex Grow:
+# TUTORIAL 3 - Flex Grow:
 
 * We can control the flexibility of the flex elements by applying the property ```flex:grow``` to the flex items inside the flex container.
 
@@ -390,7 +390,7 @@ eg:
 } 
 ```
 
-#TUTORIAL 4 -Flex Shrink:
+# TUTORIAL 4 -Flex Shrink:
 
 * ```Flex: Shrink``` is used to shrink the flex element which has already been applied the display:flex property.
 The elements shrink when the browser display area is reduced and they shrink at a rate specified by the user.
@@ -420,7 +420,7 @@ eg:
 ```
 
 
-#TUTORIAL 5 -Flex Wrap:
+# TUTORIAL 5 -Flex Wrap:
 
 * When you reduce the size of the page and it reaches a situation such that the flex element has reached the min width specified and cannot 
 shrink any further ,and then the scroll bars appear at the bottom of the page so as to see the rest of the element.
@@ -451,7 +451,7 @@ eg:
 ```
 Here , all the properties are applied to the parent "flex-box"
 
-#TUTORIAL 6 -Flex Basis:
+# TUTORIAL 6 -Flex Basis:
 
 * ```flex:basis``` is pretty similar to ```min-width``` as it defines the starting width of the flex element.
 
@@ -495,7 +495,7 @@ eg:
     flex: 1 1 300px;
 } 
 ```
-#TUTORIAL 7 -Flex Menu:
+# TUTORIAL 7 -Flex Menu:
 
 
 * Here in the files "flexbox7.html" and "flexbox7.css" , we made the ```ul``` tag as the flex container , applied properties 
@@ -528,7 +528,7 @@ Some of the properties of ```justify-content``` are:
         justify-content: center;
         justify-content: space-between;
 	```
-#TUTORIAL 10: Media queries:
+# TUTORIAL 10: Media queries:
 
 * Tell the browser how to style an element at particular viewport dimensions.
 
