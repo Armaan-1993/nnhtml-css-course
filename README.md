@@ -293,3 +293,263 @@ Here , the ```content: "..."``` is a property used to add anything , after or be
 
 #TUTORIAL 10: Media Queries:
 
+Media queries are fucntions uses to make the tags and elements responsive.
+
+The syntax of media query used it:
+
+```
+@media screen and (min-width:400px) {
+
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+    }
+    nav ul li {
+        flex:1;  /* flex: grow , shrink , basis*/
+    }
+} 
+```
+
+
+CSS FLEXBOX:
+
+
+#TUTORIAL 1:
+
+* Flexbox are display types used to make css aligning and display properties a lot easier.
+Its used to control the size , position , spacing od elememnts etc.
+
+* For applying flex , we need to assign a container (flex container) and a list of divs or other tags inside the parent divs called
+children or flex items.
+
+They are very responsive as well.
+
+#TUTORIAL 2 - Flex Containers:
+
+* The flex properties are applied relative to the parent flex container , through which the properties will be applied to the flex items
+as well.
+
+* The flex property can be applied to the parent by providing a display tag of flex in this manner:
+
+```
+.container{
+display : flex;
+}
+
+.box {
+    height: 100px;
+    min-width: 100px;
+}
+```
+
+Thus all the elements inside the div will have the flex property. It will display the  minimum width of the elements.
+(In case of the example we did , the three flex elements will be displayed in a row each with the specified minimum width of 100px)
+
+#TUTORIAL 3 - Flex Grow:
+
+* We can control the flexibility of the flex elements by applying the property ```flex:grow``` to the flex items inside the flex container.
+
+eg:
+
+```
+.flex-box {
+    display :flex;
+}
+.box {
+    height: 100px;
+    min-width: 100px;	
+    /*flex-grow: 3;*/	
+} 
+.one {
+    background-color: red;
+    flex-grow: 1;
+}
+.two {
+    background-color: #0400ff;
+    flex-grow: 2;
+}
+.three {
+    background-color: #3cff00;
+    flex-grow: 3;
+}
+```
+Here , the ```flex-grow``` property is applied to each flex element with different values and the flex element is grown by the rates 
+specified .
+We can either do it this way , or we could use the flex grow commonly for all items to grow the elements with the same rate.
+
+eg:
+
+```
+.flex-box {
+    display :flex;
+}
+.box {
+    height: 100px;
+    min-width: 100px;	
+    /*flex-grow: 3;*/	
+} 
+```
+
+#TUTORIAL 4 -Flex Shrink:
+
+* ```Flex: Shrink``` is used to shrink the flex element which has already been applied the display:flex property.
+The elements shrink when the browser display area is reduced and they shrink at a rate specified by the user.
+
+eg:
+
+```
+.flex-box {
+    display :flex;
+}
+.box {
+    height: 100px;
+    width: 320px;
+} 
+.one {
+    background-color: red;
+    flex-shrink: 1;
+}
+.two {
+    background-color: #0400ff;
+    flex-shrink: 7;
+}
+.three {
+    background-color: #3cff00;
+    flex-shrink: 3;
+}
+```
+
+
+#TUTORIAL 5 -Flex Wrap:
+
+* When you reduce the size of the page and it reaches a situation such that the flex element has reached the min width specified and cannot 
+shrink any further ,and then the scroll bars appear at the bottom of the page so as to see the rest of the element.
+Hence we use ```flex-warp: wrap``` or ```flex-wrap: wrap-reverse``` for reverse wrapping.
+
+eg:
+
+```
+.flex-box {
+    display :flex;
+    min-width: 200px;
+    flex-grow: 1;
+    flex-wrap: wrap-reverse;
+}
+.box {
+    height: 100px; 
+    width: 320px;
+} 
+.one {
+    background-color: red;
+}
+.two {
+    background-color: #0400ff;
+}
+.three {
+    background-color: #3cff00;
+}
+```
+Here , all the properties are applied to the parent "flex-box"
+
+#TUTORIAL 6 -Flex Basis:
+
+* ```flex:basis``` is pretty similar to ```min-width``` as it defines the starting width of the flex element.
+
+eg:
+
+```
+.flex-box {
+    display :flex;
+    min-width: 200px;
+    flex-grow: 1;
+    flex-wrap: wrap;
+}
+.box {
+    height: 100px; 
+    width: 320px;
+} 
+.one {
+    background-color: red;
+    flex-basis: 100px;	
+}
+.two {
+    background-color: #0400ff;
+    flex-basis: 100px;	
+}
+.three {
+    background-color: #3cff00;
+    flex-basis: 200px;	
+}
+```
+
+Hence we can see that the flex-basis with the largest pixels will appear with larger width as a flex element.
+
+Here , we can write all  3 properties , ie ```flex: grow``` , ```flex: shrink``` and ```flex-basis``` as a single flex element.
+
+eg:
+
+```
+.box {
+    height: 100px; 
+    flex-grow: 1;
+    flex: 1 1 300px;
+} 
+```
+#TUTORIAL 7 -Flex Menu:
+
+
+* Here in the files "flexbox7.html" and "flexbox7.css" , we made the ```ul``` tag as the flex container , applied properties 
+to its ```li``` elements ie ```a``` elements. 
+All these ul and li elements are defined inside a nav
+
+After designing these , we used a media query function to create a responsive menu.
+
+eg:
+```
+@media screen and (min-width:400px) {
+
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+    }
+    nav ul li {
+        flex:1;  /* flex: grow , shrink , basis*/
+    }
+} 
+```
+Here ,the ```justify-content``` property is used to align the flex elements in different ways based on it different properties.
+
+Some of the properties of ```justify-content``` are:
+
+	```
+	justify-content: space-around;
+        justify-content: flex-end;
+        justify-content: flex-start;
+        justify-content: center;
+        justify-content: space-between;
+	```
+#TUTORIAL 10: Media queries:
+
+* Tell the browser how to style an element at particular viewport dimensions.
+
+* viewport meta tag - tells the browser what width the viewport should be
+* meta tag - <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+Syntax:
+
+```
+@media screen (max-width:960px) {}
+
+@media screen (min-width:960px) {}
+```
+
+
+
+
+
+
+
+
+
+
+
