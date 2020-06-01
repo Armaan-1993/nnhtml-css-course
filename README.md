@@ -543,6 +543,12 @@ Syntax:
 @media screen (min-width:960px) {}
 ```
 
+# CSS POSITIONING:
+
+# Box Model:
+
+The box model in CSS is represented as the following:
+
 
 
 
