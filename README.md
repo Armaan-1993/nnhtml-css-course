@@ -547,8 +547,52 @@ Syntax:
 
 # Box Model:
 
-The box model in CSS is represented as the following:
+* The box model in CSS is represted as an element , surrounded by padding and then it is surrounded by the margin.
+  The margin is further surrrounded by the border of the element.
 
+* This is a box model and only block elements can be represnted in this way and not inline elements.
+
+* The  p tag element is a block element by default and that is why multiple p tags are shown per line and not in a single line.
+  a tag ie href is an inline element and the box model cannot be represnted in its case.
+  Hence we can apply box model properties to the p tag elements and not the a tag elements.
+
+* Block type elememts take up 100% width of the page by default. Whereas inline elements just take up their surroiunding area.
+  In which case if you , use ```width: 50%``` , then 50% of the total 100% width will be displayed.
+  If you add a margin property like ```margin: 50px``` , then it will be applied to the block element and not the line type element.
+  Hence an ```a```  tag element below a ```p``` tag element will display as if it is oveerlaped to the p type element if you add these 
+  properties to it. However , if you change the display of the inline ```a``` tag element to block or inline block , then there proprties
+  will be applied to it.
+
+# Normal Documentation Flow: 
+
+*  The block type elements occur on top of one another ie from top to bottom while the inline elements occur in the same line  , ie 
+   from left to right.
+*  ```line-height: 20px``` means it will modidfy the gap between different lines in a paraghraph element.
+
+# Floating Elements:
+
+* ```margin: 0 auto``` means "margin left and right auto". It is used to position elements to the middle of the screen.
+* Using ```width:95%``` is almost equivalent to using ```width: 960px```. This is how you use  % to size elements in case of block elements.
+
+* Image elements can be given width too.
+* In normal documentation flow , the element specified below a block element comes below it . However , if we want to align the elements 
+  in the same line , then we can use the float property.
+  
+  eg:
+	```img {
+    width:300px;
+    float: left;
+    }	
+	```
+
+  Using this propert will align the top element to the left of the element below it.
+  The same thing can be done by using ```float: right```.
+   
+  In case of the exmple done with 4 colors (flotingelements html and css) , we see that if we use float left on a color , it will hide 
+  in to the left of the second color. (if you add a margin property to the second color , you can see the first color hiding beside it).
+  However , if you provide a ```float: right``` propert , then the color will be in the right. If we provide th same ``float:right``` 
+  property to the next color , it will also be aligned to the right of the element , not from top to bottom , but from left to right , 
+  ie in the same line.  
 
 
 
