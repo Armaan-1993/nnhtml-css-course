@@ -3,4 +3,4 @@
 > When we use relation in multiple cases , there are some issues that may occur with the aligment and also while converting
 to mobile view. What are they?
 
-2.
+2. What'difference between width , max-width and min-width and when do we need to apply these properties specifically.
