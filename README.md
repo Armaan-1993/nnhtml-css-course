@@ -594,6 +594,150 @@ Syntax:
   property to the next color , it will also be aligned to the right of the element , not from top to bottom , but from left to right , 
   ie in the same line.  
 
+# Clear Floats:
+
+* The ```clear:left``` 
+
+  or 
+
+  ```clear: right``` 
+
+  or 
+
+  ```clear: both```
+
+  , are used to clear the elements from the applied float propetiers. However , using this property will not completely let the 
+  float propertis be cleared and be converted back to the normal document flow.
+  If we use properties on a block element just below the floated element (the new block element is inside the main div as the 
+  float elements) , then the properties like margin etc wont work on it , as the floating properties are also applicable to them.
+  Hence to solve this , we use an empty div to seperate the floating element with the block element.
+
+  This can be done by using a div to seperate them :
+
+ 
+ ```
+.service {
+    float: left;
+    background-color: cornflowerblue;
+    margin: 2%;
+    width: 25;
+    padding: 5px;
+    height: 140px;
+    clear: both;
+}
+```
+```
+.services:after {
+    content: "yoyoyo";
+    display: block;
+    clear:both;
+}
+```
+
+ * The after pseudo class is used to enter an element after a certain tag.
+
+# Column Floats:
+
+It can be used to align the div elements as columns . 
+
+In case of of divs consisting of p types or other types of tags and we want to alignt them as columns , we can use the ```float```
+property to align them as floast and break the normal documentation flow.
+
+However , if we are defining block elements , we need to provide them seperate widths for the flaot properties to kick in coz 
+otherwise the block elements have default width of 100% and applying float property won't make any difference.
+Hence , to display the elements as columns in the same screen , we need to provide seperate widths for them elements.
+
+After aligning them as float elements , we need to clear the floats so that the elements that way be defined below the columns will
+not inherit the float properties. This can be done by defining these elements inside a single parent div and adding any element after
+the div so as to seperte it from new elements to be added.
+
+```
+.columns {
+content : "";
+display: block;
+clear: both;
+}
+```
+
+# Text Columns without using float:
+
+This can be done using a the following properties.
+
+*
+```
+content {
+-webkit-column-count: 4;
+	column-count: 4;
+}
+```
+This property is used to input the number of columns you want toi divide the texts into.
+
+*
+```
+content {
+ -webkit-column-gap: 20px;
+    column-gap: 20px;
+}
+```
+
+It can be used to specify the gap between the columns
+
+*
+```content {
+   -webkit-column-rule: 2px solid black;
+    column-rule: 2px solid #8d8dd6;
+}
+```
+
+It is used to add a line between the columns and to give it a size , type and color.
+
+# Position Relative:
+
+Position relative is used to visually move the element and not in reality. In reality the element is still in the normal document flow as 
+seen by the browser. Hence we should use this property only if we need to like really bad.
+
+# Position Absolute:
+
+```max-height```
+```overflow:hidden``` 
+
+The overflow property is used to make the overflow of the elements hidden.
+
+* The relative absolute property is used to move an element absooutely relative to the postion of its parent element.
+ie , we need to applty a relative property to the parent element first and then the element to be moved is applied an absolute 
+property.
+
+```
+.wrapper {
+    position: relative;
+}
+.service {
+    position: absolute;
+    left: 350px;
+}
+```
+# Position fixed: 
+
+
+It is used to fix an element and never move it. It is in such a way that the element is fixed relative to the browser window.
+Remember that while we use fixed positioning , the element is taken out of the normal document flow and hence the initial space occupied
+by the element will be gone , unlike relative.
+
+eg:
+
+```
+ul {
+float: left;
+position: fixed;
+top:50px;
+background-color: blue;
+align-content: center;
+width: 100%;
+margin: auto 0;
+}
+```
+# z-index:
+
 
 
 
