@@ -738,6 +738,39 @@ margin: auto 0;
 ```
 # z-index:
 
+* Thew further down you are , then higher the stacking order and vice versa.
+
+* By default , the z-index of the elements is zero. So in order to increase the stacking order , we need to increase their z-index
+  to 1. 
+* In order for the z-index property to work , we need to provide a relative positioning property to the element. 
+  Suppose , we give the first element z-index 1 for a fixed element , it has more stacking order than all the other elements and 
+  none of them will overlap this element when we scroll down.
+  Suppose , we give z-index - 2 for another element , then when we scroll down , the element with z-index=2 will overlap the first
+  element with z-index:1 and the rest of the elements will not. This is the use of z-index.\
+  eg:
+
+  ```
+  section , aside {
+    position: relative;
+    float: left;
+    width: 40%;
+    padding: 2%;
+    margin:2%;
+    background-color: greenyellow;
+    z-index:1;
+}
+	```
+
+# Clipping Content:
+
+* Using max-height to a div or a tag in which an element placed in another div is placed  will provide a value to it will fix the maximum 
+  height an element can have. If the element is overlapping the parent div , then we can use the ```overflow``` property to it and the 
+  element will be completely inside the parent div.
+
+  If we use ```overflow: auto``` , then the area the element was overflowing with will be placed inside the the parent container with a
+  scroll bar.
+  Or use the ```overflow: hidden``` to completely the hide the overflowing area from the parent div.
+
 
 
 
