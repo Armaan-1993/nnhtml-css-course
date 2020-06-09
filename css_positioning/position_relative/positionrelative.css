@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(222, 243, 190);
+    margin: 10px 0;
+    align-items: center;
+}
+
+.service {
+    float: left;
+    background-color: cornflowerblue;
+    margin: 2%;
+    width: 25;
+    padding: 5px;
+    height: 140px;
+    position: relative;
+    top: 45px;
+    left:32px;
+}
+.content {
+    margin: 10px;
+    clear:left;
+    margin: 20px , 1%;
+}
+img {
+    width: 100%;
+}
+section , aside {
+    float: left;
+    width: 40%;
+    padding: 2%;
+    margin:2%;
+    background-color: greenyellow;
+
+}
+.columns:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.content p {
+    -webkit-column-count: 4;
+    column-count: 4;
+    -webkit-column-gap: 20px;
+    column-gap: 20px;
+    -webkit-column-rule: 2px solid black;
+    column-rule: 2px solid #8d8dd6;
+}
