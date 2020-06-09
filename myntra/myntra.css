@@ -1,0 +1,191 @@
+body {
+  margin: 0;
+}
+.top_nav_bar {
+  /* background-color: yellowgreen; */
+  height: 57px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: 1px solid transparent;
+  /* filter: drop-shadow(0px 0px 10px #ada6a6); */
+  /* box-shadow: 0px 5px #f1efef; */
+  position: fixed;
+  box-shadow: 0px 0 15px -2px rgb(226, 219, 219);
+}
+.top_nav_bar_middle_div {
+  display: flex;
+  width: 35%;
+}
+.top_nav_bar_images_div {
+  padding-right: 2.5%;
+  margin-top: -1px;
+}
+
+#myntralogo {
+  max-width: 50%;
+  display: block;
+  margin-top: 15px;
+  margin-left: 60%;
+}
+#profileicon {
+  max-width: 50%;
+  display: block;
+  margin-top: 16px;
+}
+#wishlisticon {
+  max-width: 50%;
+  display: block;
+  margin-top: 16px;
+}
+#bagicon {
+  max-width: 50%;
+  display: block;
+  margin-top: 16px;
+}
+#men_href,
+#women_href,
+#kids_href,
+#homeandliving_href,
+#essentials_href {
+  display: inline-block;
+  text-decoration: none;
+  font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica,
+    Arial, sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  color: black;
+  /* background-color: orangered; */
+  margin-top: 20px;
+  padding-left: 20px;
+}
+.top_nav_bar div {
+  display: inline-block;
+  /* background-color: rgb(112, 192, 216); */
+}
+#search {
+  display: inline-block;
+  width: 280px;
+  margin-top: 15px;
+  height: 26px;
+  background-color: #f7ecec;
+  border: hidden;
+}
+#search::placeholder {
+  font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica,
+    Arial, sans-serif;
+  font-weight: 400;
+  font-size: 9px;
+}
+/* #shop_top_categories_img {
+  width: 50%;
+} */
+#kurtas_img,
+#tops_img,
+#menstshirt_img,
+#casualtrousers_img,
+#casualfootwear_img {
+  width: 70%;
+}
+.shop_top_categories_div1 {
+  /* background-color: violet; */
+  display: flex;
+  padding-left: 5%;
+}
+.shop_top_categories_div2 {
+  /* background-color: greenyellow; */
+  display: flex;
+  padding-left: 5%;
+}
+#dresses_img,
+#casualshirts_img,
+#sportsshoes_img,
+#headphones_img,
+#makeup_img {
+  width: 70%;
+}
+/* .tops_div,.menstshirt_div,.casualtrousers_div,.casualfootwear_div {
+  display: inline-block;
+  margin-right: 5%;
+} */
+.flat_div {
+  width: 20%;
+  height: 27px;
+  background-color: #3e4150;
+  align-items: center;
+  align-content: center;
+  transform: rotate(270deg);
+  display: flex;
+  position: fixed; 
+  bottom: 25%;
+  
+
+ 
+
+}
+.flat_p {
+  color: white;
+  margin-left: 20%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 1%;
+
+}
+
+.offer-body{
+  display: flex;
+  justify-content: flex-end;
+ background-color: green;
+}
+
+main{
+  padding-top: 62px;
+}
+
+main .top-categories{
+  font-size: 22px;
+  font-weight: 600;
+  margin-left: 5%;
+}
+
+
+.ad {
+  position: fixed;
+  right: 0;
+  bottom: 130px;
+  width: 44px;
+  height: 288px;
+  background-color: #535766;
+  z-index: 6;
+  color: #fff;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+}
+
+.offer {  
+    position: fixed;   
+    right:  1px; 
+    bottom: 130px;
+    width: 44px;
+    height: 288px;  
+    z-index: 2;   
+    cursor: pointer;    
+}
+.offer a{
+    display: inherit;
+    transform: rotate(180deg);
+    writing-mode: vertical-rl;
+    width: 36px;
+    padding: 4px;
+    height: 200px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    -webkit-margin-after: 0;
+    margin-block-end: 0;
+    -webkit-margin-before: 0;
+    margin-block-start: 0;
+    color: #fcfcfc;
+    display: inline-block;
+}
