@@ -1,0 +1,43 @@
+.wrapper {
+    /* width: 960px; */
+    width:95%;
+    background-color: rgb(231, 231, 207);
+    padding: 5px;
+    margin: 0 auto;
+    height: 300px;
+}
+.server {
+    float: left;
+}
+/* img {
+    width:50px;
+    float: left;
+}
+.red {
+    background-color: red;
+    float: right;
+    
+}
+.green {
+    background-color: green;
+    float: right;
+}
+.blue {
+    background-color: blue    
+}
+.yellow {
+    background-color: yellow;
+}
+.box {
+     margin: 0 auto;
+    width: 20%;
+    height: 20px;
+    float: left; 
+} */
+.wrong {
+    background-color: #8585d8;
+    width: 70%;
+    height: 20px;
+    margin: 3%;
+    padding: 4%;
+}
