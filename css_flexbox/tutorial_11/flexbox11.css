@@ -1,0 +1,11 @@
+article {
+    background-color: #e6d6f1;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+article h2 {
+    text-align: center;
+    font-size: 40px;
+    margin: 20px 0;
+}
