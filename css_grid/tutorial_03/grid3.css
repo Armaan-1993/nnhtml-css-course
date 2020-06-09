@@ -1,0 +1,19 @@
+body {
+    font-family: Verdana;
+    background-color: #cabd43;
+    text-align: center;
+}
+#grid {
+    max-width: 1020px;
+    margin:0 auto;
+    display: grid;
+    grid-template-columns: 24% 36% 40%; 
+}
+#grid div {
+    background-color: #98d5e9;
+    margin-bottom: 20px;
+    padding: 30px;
+}
+#grid div:nth-child(odd) {
+    background-color: #a7e969;
+}
