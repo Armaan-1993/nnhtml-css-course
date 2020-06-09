@@ -1,0 +1,29 @@
+.wrapper {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.flexparent {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    background-color: #eadff1;
+    height: 800px;
+    justify-content: center;  /*main axis*/
+    align-items: center;      /*cross axis*/
+}
+.box1 {
+    width: 100px;
+    background-color: red;
+    flex:0 0 100px;
+}
+.box2 {
+    width: 100px;
+    background-color: blue;
+    flex:0 0 100px;
+}
+.box3 {
+    width: 100px;
+    background-color: green;
+    flex:0 0 100px;
+}
