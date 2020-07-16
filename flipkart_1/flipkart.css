@@ -1,0 +1,1045 @@
+body {
+    margin: 0;
+}
+
+.nav_bar1 {
+    background-color: #2874f0;
+    height: 37px;
+}
+.nav_bar1_div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#flipkartlogo_img {
+    width: 22%;
+}
+.nav_bar1_flipkartlogo_img_div {
+    margin-left: 12%;
+    margin-top: 1%;
+    padding-right: 8%;
+}
+
+#search {
+    width: 400px;
+    height: 25px;
+}
+#search::placeholder {
+    font-family: sans-serif;
+    font-size: 10px;
+}
+.nav_bar1_search_div {
+    margin-left: -34%;
+    margin-top: 0.5%;
+    padding-right: 10%;
+}
+
+.nav_bar1_login_div {
+    width: 80px;
+    background-color: white;
+    height: 20px;
+    text-align: center;
+    margin-top: 0.75%;
+    margin-right: -5%;
+}
+#nav_bar1_login_href {
+    text-decoration: none;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 11px;
+    color: #2874f0;
+}
+#nav_bar1_cart_href {
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: 11px;
+    color: white;
+}
+.nav_bar1_cart_div {
+    margin-top: 1%;
+    margin-right: 5%;
+}
+
+.nav_bar1_option_more_dropdown {
+    width: 5px;
+}
+.nav_bar1_more_div {
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: 11px;
+    color: white;
+    margin-top: 1.25%;
+    padding-left: 5%;
+}
+.nav_bar2 {
+    background-color: #fff;
+    border-bottom: 0.5px solid #abcce2;
+    width: 100%;
+    height: 26px;
+    /* background-color: chartreuse; */
+    box-shadow: 0 5px rgba(105, 99, 99, 0.16);
+    box-sizing: border-box;
+}
+.nav_bar2_div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-basis: auto;
+    /* background-color: cadetblue; */
+}
+.nav_bar2_div a {
+    text-decoration: none;
+    font-size: 10px;
+    font-family: Roboto, Arial, sans-serif;
+    color: black;
+    font-weight: 500;
+}
+.nav_bar2_div div {
+    margin-left: 3%;
+    margin-right: 2%;
+    margin-top: 0.25%;
+}
+.left_corner_checkbox_filters_span {
+    font-family: Roboto, Arial, sans-serif;
+    color: black;
+    font-size: 13px;
+    font-weight: 500;
+    display: block;
+    margin-top: 10px;
+    margin-left: 6%;
+}
+.left_corner_checkbox_filters_div {
+    display: inline-block;
+    border: 0.25px solid #ddeef1;
+    /* background-color: blueviolet; */
+    width: 180px;
+    height: 34px;
+}
+/* .left_corner_checkbox_section_div {
+    border: 1px solid #abcce2;
+    height: 1200px;
+    width: 180px;
+} */
+.left_corner_checkbox_section {
+    margin-top: 3px;
+    border: 0.1px solid #abcce2;
+    height: 1200px;
+    width: 180px;
+    box-shadow: 5px 0 #69636329;
+}
+
+#flipkart_assured_img {
+    width: 30%;
+}
+.left_corner_checkbox_mobile_list_main_div {
+    border-bottom: 0.1px solid #abcce2;
+    /* background-color: crimson; */
+    height: 80px;
+}
+.left_corner_checkbox_categories_div {
+    /* background-color: chartreuse; */
+    padding-top: 7%;
+}
+#left_corner_checkbox_categories_href {
+    /* background-color: #2874f0; */
+    text-decoration: none;
+    font-family: Roboto, Arial, sans-serif;
+    color: black;
+    font-weight: 500;
+    font-size: 8px;
+    margin-left: 10px;
+}
+.left_corner_checkbox_mobiles_and_accessories_div {
+    /* background-color: brown; */
+    color: #918989;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    padding-top: 5%;
+    margin-left: 20px;
+}
+.left_corner_checkbox_mobiles_div {
+    /* background-color: coral; */
+    margin-top: 2px;
+}
+#left_corner_checkbox_mobiles_href {
+    color: black;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 9px;
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+#price {
+    height: 4px;
+    width: 90%;
+    margin-left: 10px;
+}
+.price_div {
+    color: black;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 9px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.price_max_min_div {
+    border-bottom: 0.1px solid #abcce2;
+    height: 80px;
+}
+.max_min_div {
+    margin-bottom: 17px;
+    padding-left: 5%;
+    background-color: cyan;
+}
+#min_range {
+    margin-left: 5%;
+    display: inline-block;
+    color: black;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    margin-top: 10px;
+    width: 70px;
+    height: 17px;
+    border: 0.1px solid #abcce2;
+}
+#max_range {
+    display: inline-block;
+    color: black;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    margin-top: 10px;
+    width: 70px;
+    height: 17px;
+    border: 0.1px solid #abcce2;
+}
+.min_to_max_span {
+    color: #918989;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+}
+.flipkart_assured_div {
+    /* background-color: rgb(255, 115, 0); */
+    border-bottom: 0.1px solid #abcce2;
+    height: 35px;
+}
+#flipkart_assured {
+    display: inline-block;
+    /* background-color: darkgreen; */
+    margin-left: 9px;
+}
+#flipkart_assured_img {
+    margin-left: 1px;
+    margin-top: 10px;
+}
+#flipkart_assured[type="radio"] {
+    border: 1px solid #abcce2;
+    padding: 5px;
+    -webkit-appearance: none;
+}
+.left_corner_checkbox_ram_checkbox {
+    border-bottom: 0.1px solid #abcce2;
+    height: 160px;
+}
+
+.left_corner_checkbox_ram_div {
+    /* background-color: darkgreen; */
+    height: 25px;
+    padding: 2px;
+}
+#left_corner_checkbox_ram_href {
+    color: black;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 9px;
+    text-decoration: none;
+    margin-left: 7px;
+}
+.six_gb_and_above_div {
+    /* background-color: darkmagenta; */
+    margin-bottom: 5px;
+}
+#six_gb_and_above_radio {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+#six_gb_and_above_radio[type="radio"] {
+    border: 1px solid #abcce2;
+    padding: 4px;
+    -webkit-appearance: none;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#six_gb_and_above_label {
+    color: black;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 10px;
+    font-weight: 400px;
+    display: inline;
+    margin-left: 5px;
+}
+.four_gb_div {
+    /* background-color: burlywood; */
+    margin-bottom: 5px;
+}
+#four_gb_radio[type="radio"] {
+    border: 1px solid #abcce2;
+    padding: 4px;
+    -webkit-appearance: none;
+    display: inline-block;
+    margin-left: 10px;
+}
+#four_gb_label {
+    color: black;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 10px;
+    font-weight: 400px;
+    display: inline;
+    margin-left: 5px;
+}
+.three_gb_div {
+    /* background-color: red; */
+    margin-bottom: 5px;
+}
+#three_gb_radio {
+    display: inline-block;
+    margin-left: 5px;
+}
+#three_gb_radio[type="radio"] {
+    border: 1px solid #abcce2;
+    padding: 4px;
+    -webkit-appearance: none;
+    display: inline-block;
+    margin-left: 10px;
+}
+#three_gb_label {
+    color: black;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 10px;
+    font-weight: 400px;
+    display: inline;
+    margin-left: 5px;
+}
+.two_gb_div {
+    /* background-color: blue; */
+    margin-bottom: 5px;
+}
+#two_gb_radio {
+    display: inline-block;
+    margin-left: 5px;
+}
+#two_gb_radio[type="radio"] {
+    border: 1px solid #abcce2;
+    padding: 4px;
+    -webkit-appearance: none;
+    display: inline-block;
+    margin-left: 10px;
+}
+#two_gb_label {
+    color: black;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 10px;
+    font-weight: 400px;
+    display: inline;
+    margin-left: 5px;
+}
+.one_gb_div {
+    /* background-color: yellowgreen; */
+    margin-bottom: 5px;
+}
+#one_gb_radio {
+    display: inline-block;
+    margin-left: 5px;
+}
+#one_gb_radio[type="radio"] {
+    border: 1px solid #abcce2;
+    padding: 4px;
+    -webkit-appearance: none;
+    display: inline-block;
+    margin-left: 10px;
+}
+#one_gb_label {
+    color: black;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 10px;
+    font-weight: 400px;
+    display: inline;
+    margin-left: 5px;
+}
+.left_corner_checkbox_brand_checkbox {
+    border-bottom: 0.1px solid #abcce2;
+    height: 60px;
+}
+.left_corner_checkbox_brand_div {
+    /* background-color: yellowgreen; */
+    margin-bottom: 10px;
+}
+#left_corner_checkbox_brand_href {
+    color: black;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 9px;
+    text-decoration: none;
+    margin-left: 8px;
+}
+#mi_div_radio {
+    display: inline-block;
+    margin-left: 5px;
+}
+#mi_div_radio[type="radio"] {
+    border: 1px solid #abcce2;
+    padding: 4px;
+    -webkit-appearance: none;
+    display: inline-block;
+    margin-left: 10px;
+}
+#mi_div_label {
+    color: black;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 10px;
+    font-weight: 400px;
+    display: inline;
+    margin-left: 5px;
+}
+.left_corner_checkbox_customer_ratings_checkbox {
+    border-bottom: 0.1px solid #abcce2;
+    height: 135px;
+}
+.left_corner_checkbox_customer_ratings_div {
+    /* background-color: yellowgreen; */
+    margin-bottom: 10px;
+}
+#left_corner_checkbox_customer_href {
+    color: black;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 9px;
+    text-decoration: none;
+    margin-left: 8px;
+}
+.four_and_above_div {
+    /* background-color: yellowgreen; */
+    margin-bottom: 5px;
+}
+#four_and_above_radio {
+    display: inline-block;
+    margin-left: 5px;
+}
+#four_and_above_radio[type="radio"] {
+    border: 1px solid #abcce2;
+    padding: 4px;
+    -webkit-appearance: none;
+    display: inline-block;
+    margin-left: 10px;
+}
+#four_and_above_label {
+    color: black;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 10px;
+    font-weight: 400px;
+    display: inline;
+    margin-left: 5px;
+}
+.three_and_above_div {
+    /* background-color: blue; */
+    margin-bottom: 5px;
+}
+#three_and_above_radio {
+    display: inline-block;
+    margin-left: 5px;
+}
+#three_and_above_radio[type="radio"] {
+    border: 1px solid #abcce2;
+    padding: 4px;
+    -webkit-appearance: none;
+    display: inline-block;
+    margin-left: 10px;
+}
+#three_and_above_label {
+    color: black;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 10px;
+    font-weight: 400px;
+    display: inline;
+    margin-left: 5px;
+}
+.two_and_above_div {
+    /* background-color: red; */
+    margin-bottom: 5px;
+}
+#two_and_above_radio {
+    display: inline-block;
+    margin-left: 5px;
+}
+#two_and_above_radio[type="radio"] {
+    border: 1px solid #abcce2;
+    padding: 4px;
+    -webkit-appearance: none;
+    display: inline-block;
+    margin-left: 10px;
+}
+#two_and_above_label {
+    color: black;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 10px;
+    font-weight: 400px;
+    display: inline;
+    margin-left: 5px;
+}
+.one_and_above_div {
+    /* background-color: red; */
+    margin-bottom: 5px;
+}
+#one_and_above_radio {
+    display: inline-block;
+    margin-left: 5px;
+}
+#one_and_above_radio[type="radio"] {
+    border: 1px solid #abcce2;
+    padding: 4px;
+    -webkit-appearance: none;
+    display: inline-block;
+    margin-left: 10px;
+}
+#one_and_above_label {
+    color: black;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 10px;
+    font-weight: 400px;
+    display: inline;
+    margin-left: 5px;
+}
+.left_corner_checkbox_internal_storage_checkbox {
+    border-bottom: 0.1px solid #abcce2;
+    height: 185px;
+}
+.left_corner_checkbox_internal_storage_div {
+    /* background-color: royalblue; */
+    margin-bottom: 10px;
+}
+#left_corner_checkbox_internal_storage_href {
+    color: black;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 9px;
+    text-decoration: none;
+    margin-left: 8px;
+}
+.two_five_six_gb_and_above_div {
+    /* background-color: red; */
+    margin-bottom: 5px;
+}
+#two_five_six_gb_and_above_radio {
+    display: inline-block;
+    margin-left: 5px;
+}
+#two_five_six_gb_and_above_radio[type="radio"] {
+    border: 1px solid #abcce2;
+    padding: 4px;
+    -webkit-appearance: none;
+    display: inline-block;
+    margin-left: 10px;
+}
+#two_five_six_gb_and_above_label {
+    color: black;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 10px;
+    font-weight: 400px;
+    display: inline;
+    margin-left: 5px;
+}
+.one_twenty_eight_to_two_five_six_gb_and_above_div {
+    /* background-color: red; */
+    margin-bottom: 5px;
+}
+#one_twenty_eight_to_two_five_six_gb_and_above_radio {
+    display: inline-block;
+    margin-left: 5px;
+}
+#one_twenty_eight_to_two_five_six_gb_and_above_radio[type="radio"] {
+    border: 1px solid #abcce2;
+    padding: 4px;
+    -webkit-appearance: none;
+    display: inline-block;
+    margin-left: 10px;
+}
+#one_twenty_eight_to_two_five_six_gb_and_above_label {
+    color: black;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 10px;
+    font-weight: 400px;
+    display: inline;
+    margin-left: 5px;
+}
+.sixty_four_to_one_twenty_eight_gb_and_above_div {
+    /* background-color: red; */
+    margin-bottom: 5px;
+}
+#sixty_four_to_one_twenty_eight_gb_and_above_radio {
+    display: inline-block;
+    margin-left: 5px;
+}
+#sixty_four_to_one_twenty_eight_gb_and_above_radio[type="radio"] {
+    border: 1px solid #abcce2;
+    padding: 4px;
+    -webkit-appearance: none;
+    display: inline-block;
+    margin-left: 10px;
+}
+#sixty_four_to_one_twenty_eight_gb_and_above_label {
+    color: black;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 10px;
+    font-weight: 400px;
+    display: inline;
+    margin-left: 5px;
+}
+.thirty_two_to_sixty_four_gb_and_above_div {
+    /* background-color: red; */
+    margin-bottom: 5px;
+}
+#thirty_two_to_sixty_four_gb_and_above_radio {
+    display: inline-block;
+    margin-left: 5px;
+}
+#thirty_two_to_sixty_four_gb_and_above_radio[type="radio"] {
+    border: 1px solid #abcce2;
+    padding: 4px;
+    -webkit-appearance: none;
+    display: inline-block;
+    margin-left: 10px;
+}
+#thirty_two_to_sixty_four_gb_and_above_label {
+    color: black;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 10px;
+    font-weight: 400px;
+    display: inline;
+    margin-left: 5px;
+}
+.sixteen_to_thity_two_gb_and_above_div {
+    /* background-color: red; */
+    margin-bottom: 5px;
+}
+#sixteen_to_thity_two_gb_and_above_radio {
+    display: inline-block;
+    margin-left: 5px;
+}
+#sixteen_to_thity_two_gb_and_above_radio[type="radio"] {
+    border: 1px solid #abcce2;
+    padding: 4px;
+    -webkit-appearance: none;
+    display: inline-block;
+    margin-left: 10px;
+}
+#sixteen_to_thity_two_gb_and_above_label {
+    color: black;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 10px;
+    font-weight: 400px;
+    display: inline;
+    margin-left: 5px;
+}
+.eight_to_sixteen_gb_and_above_div {
+    /* background-color: red; */
+    margin-bottom: 5px;
+}
+#eight_to_sixteen_gb_and_above_radio {
+    display: inline-block;
+    margin-left: 5px;
+}
+#eight_to_sixteen_gb_and_above_radio[type="radio"] {
+    border: 1px solid #abcce2;
+    padding: 4px;
+    -webkit-appearance: none;
+    display: inline-block;
+    margin-left: 10px;
+}
+#eight_to_sixteen_gb_and_above_label {
+    color: black;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 10px;
+    font-weight: 400px;
+    display: inline;
+    margin-left: 5px;
+}
+.left_corner_checkbox_battery_capacity_checkbox {
+    border-bottom: 0.1px solid #abcce2;
+    height: 135px;
+}
+.left_corner_checkbox_battery_capacity_div {
+    /* background-color: royalblue; */
+    margin-bottom: 10px;
+}
+#left_corner_checkbox_battery_capacity_href {
+    color: black;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 9px;
+    text-decoration: none;
+    margin-left: 8px;
+}
+
+.two_thousand_to_two_thousand_nine_hundered_nine_div {
+    /* background-color: red; */
+    margin-bottom: 5px;
+}
+#two_thousand_to_two_thousand_nine_hundered_nine_radio {
+    display: inline-block;
+    margin-left: 5px;
+}
+#two_thousand_to_two_thousand_nine_hundered_nine_radio[type="radio"] {
+    border: 1px solid #abcce2;
+    padding: 4px;
+    -webkit-appearance: none;
+    display: inline-block;
+    margin-left: 10px;
+}
+#two_thousand_to_two_thousand_nine_hundered_nine_label {
+    color: black;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 10px;
+    font-weight: 400px;
+    display: inline;
+    margin-left: 5px;
+}
+.three_thousand_to_three_thousand_nine_hundered_nine_div {
+    /* background-color: greenyellow; */
+    margin-bottom: 5px;
+}
+#three_thousand_to_three_thousand_nine_hundered_nine_radio {
+    display: inline-block;
+    margin-left: 5px;
+}
+#three_thousand_to_three_thousand_nine_hundered_nine_radio[type="radio"] {
+    border: 1px solid #abcce2;
+    padding: 4px;
+    -webkit-appearance: none;
+    display: inline-block;
+    margin-left: 10px;
+}
+#three_thousand_to_three_thousand_nine_hundered_nine_label {
+    color: black;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 10px;
+    font-weight: 400px;
+    display: inline;
+    margin-left: 5px;
+}
+.four_thousand_to_four_thousand_nine_hundered_nine_div {
+    /* background-color: pink; */
+    margin-bottom: 5px;
+}
+#four_thousand_to_four_thousand_nine_hundered_nine_radio {
+    display: inline-block;
+    margin-left: 5px;
+}
+#four_thousand_to_four_thousand_nine_hundered_nine_radio[type="radio"] {
+    border: 1px solid #abcce2;
+    padding: 4px;
+    -webkit-appearance: none;
+    display: inline-block;
+    margin-left: 10px;
+}
+#four_thousand_to_four_thousand_nine_hundered_nine_label {
+    color: black;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 10px;
+    font-weight: 400px;
+    display: inline;
+    margin-left: 5px;
+}
+.five_thousand_and_above_div {
+    /* background-color: violet; */
+    margin-bottom: 5px;
+}
+#five_thousand_and_radio {
+    display: inline-block;
+    margin-left: 5px;
+}
+#five_thousand_and_radio[type="radio"] {
+    border: 1px solid #abcce2;
+    padding: 4px;
+    -webkit-appearance: none;
+    display: inline-block;
+    margin-left: 10px;
+}
+#five_thousand_and_above_label {
+    color: black;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 10px;
+    font-weight: 400px;
+    display: inline;
+    margin-left: 5px;
+}
+
+.main_mobiles_section {
+    /* background-color: violet; */
+    height: 920px;
+    width: 83.5%;
+    margin-left: 16.5%;
+    margin-top: -1201px;
+}
+
+.main_mobile_section_items_container_div {
+    /* background-color: #2874f0; */
+    /* margin-top: 4px; */
+}
+.main_mobile_section_items_container_secondary {
+    /* background-color: yellow; */
+    padding-top: 5px;
+}
+
+.main_mobile_section_home_span {
+    /* background-color: yellowgreen; */
+}
+#main_mobile_section_home_href {
+    text-decoration: none;
+    color: #918989;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 8px;
+    font-weight: 500;
+}
+.main_mobile_section_mobiles_and_accessories_span {
+    /* background-color: orange; */
+    margin-left: 10px;
+}
+#main_mobile_section_mobiles_and_accessories_href {
+    text-decoration: none;
+    color: #918989;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 8px;
+    font-weight: 500;
+}
+.main_mobile_section_mobiles_span {
+    /* background-color: red; */
+    margin-left: 10px;
+}
+#main_mobile_section_mobiles_href {
+    text-decoration: none;
+    color: #918989;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 8px;
+    font-weight: 500;
+}
+.main_mobile_section_latest_from_mi_div {
+    /* background-color: red; */
+    padding-top: 5px;
+}
+.main_mobile_section_latest_from_mi_span {
+    text-decoration: none;
+    color: #918989;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 8px;
+    font-weight: 500;
+}
+#main_mobile_section_latest_from_mi_href {
+    text-decoration: none;
+    color: #2874f0;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 8px;
+    font-weight: 500;
+}
+.main_mobile_section_mi_mobiles_div {
+    /* background-color: green; */
+    padding-top: 12px;
+}
+.main_mobile_section_mi_mobiles_span {
+    font-family: Roboto, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+}
+/* starting */
+.main_mobile_section_mi_mobiles_description_span {
+    margin-left: 10px;
+    color: #918989;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 9px;
+    font-weight: 500;
+}
+.main_mobile_section_sorting_mobiles_div {
+    /* background-color: pink; */
+    width: 100%;
+    padding-top: 6px;
+}
+.main_mobile_section_sortby_span {
+    font-family: Roboto, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+}
+.main_mobile_section_popularity_span {
+    /* background-color: greenyellow; */
+    border-bottom: 2px solid #2874f0;
+    margin-left: 2%;
+}
+.main_mobile_section_popularity_href {
+    text-decoration: none;
+    color: #2874f0;
+    font-family: Roboto, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+}
+.main_mobile_section_low_to_high_span {
+    font-family: Roboto, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    margin-left: 2%;
+}
+.main_mobile_section_low_to_high_span {
+    font-family: Roboto, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    margin-left: 2%;
+}
+.main_mobile_section_high_to_low_span {
+    font-family: Roboto, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    margin-left: 2%;
+}
+.main_mobile_section_newest_first_span {
+    font-family: Roboto, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    margin-left: 2%;
+}
+
+/* list of mobile phones and their detials */
+/* redmi 8a dual sea blue */
+.mobile_section_redmi_dual_seablue {
+    display: flex;
+    /* background-color: greenyellow; */
+    height: 25%;
+}
+.redmi_8a_dual_img_radiobutton_div {
+    margin-top: 2%;
+    width: 30%;
+    /* background-color: orange; */
+}
+.redmi_8a_dual_img {
+    margin-left: 35%;
+    max-width: 45%;
+}
+.redmi_8a_dual_radio_button_div {
+    /* background-color: rgb(0, 255, 242); */
+    padding-left: 12px;
+}
+#redmi_8a_dual_radio_button[type="radio"] {
+    border: 1px solid #abcce2;
+    padding: 4px;
+    -webkit-appearance: none;
+    display: inline-block;
+    margin-left: 10px;
+}
+#redmi_8a_dual_radio_button_label {
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 11px;
+}
+
+.redmi_8a_dual_details_main_div {
+    /* background-color: pink; */
+}
+.redmi_8a_dual_heading_div {
+    /* background-color: #2874f0; */
+    margin-top: 3.5%;
+}
+.redmi_8a_dual_heading_href {
+    text-decoration: none;
+    color: black;
+    font-family: Roboto, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+}
+.redmi_8a_ratings_div {
+    /* background-color: orange; */
+}
+
+.redmi_8a_ratings_img {
+    margin-top: 2px;
+    max-width: 6.5%;
+}
+.redmi_8a_ratings_img_href {
+    /* background-color: #2874f0; */
+    padding-top: 0.5%;
+}
+.redmi_8a_ratings_info_span {
+    text-decoration: none;
+    color: #918989;
+    font-family: Roboto, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+}
+.redmi_8a_dual_description_div {
+    /* background-color: red; */
+    width: 80%;
+    height: 60%;
+}
+.redmi_8a_dual_description_ul {
+    text-decoration: none;
+    color: black;
+    font-family: Roboto, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    list-style: none;
+}
+.redmi_8a_dual_description_ul li::before {
+    content: "\2022";
+    color: #918989;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+.redmi_8a_dual_description_li {
+    margin-bottom: 4px;
+}
+.redmi_8a_dual_price_div {
+    /* background-color: rebeccapurple; */
+}
+.redmi_8a_price_div {
+    margin-top: 7%;
+    /* background-color: greenyellow; */
+}
+.redmi_8a_price_span {
+    text-decoration: none;
+    color: black;
+    font-family: Roboto, Arial, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    list-style: none;
+}
+.flipkart_assured_img1 {
+    width: 23%;
+}
+.redmi_8a_dual_emi_details {
+    text-decoration: none;
+    color: black;
+    font-family: Roboto, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    list-style: none;
+}
+.footer_main {
+    background-color: rgb(13, 13, 49);
+    width: 100%;
+    height: 281px;
+}
+.footer_section1 {
+    /* padding-top: 20%; */
+    display: flex;
+    justify-content: space-evenly;
+}
+/* .footer_section2 {
+    display: flex;
+} */
+.footer_section1_tiles {
+    color: white;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.dorder_div {
+    border-bottom: 0.01px rgb(194, 189, 189) solid;
+}

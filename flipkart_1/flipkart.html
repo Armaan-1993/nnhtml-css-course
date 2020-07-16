@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="flipkart.css">
+    <title>Flipkart</title>
+</head>
+
+<body>
+    <nav class="nav_bar1">
+        <div class="nav_bar1_div">
+            <div class="nav_bar1_flipkartlogo_img_div">
+                <img src="img.flipkart/flipkartlogo" id="flipkartlogo_img" alt=""></div>
+            <div></div>
+            <div class="nav_bar1_search_div">
+                <form action="">
+                    <input type="search" name="search" id="search" placeholder="   Search for products,brands and more">
+                </form>
+            </div>
+            <div class="nav_bar1_login_div"><a href="" id="nav_bar1_login_href">Login</a></div>
+            <div class="nav_bar1_more_div">More</div>
+            <!-- <div>
+                <select name="more" id="more">
+                    <option value="" class = "nav_bar1_option_more_dropdown"><img src="img.flipkart/more_dropdown_icon.svg" alt=""></option>
+                    <option value="">Notification Preferences</option>
+                    <option value="">Sell on Flipkart</option>
+                    <option value="">24*7 Customer Care</option>
+                    <option value="">Advertise</option>
+                    <option value="">Download App</option>
+                </select>
+            </div> -->
+            <div class="nav_bar1_cart_div"><a href="" id="nav_bar1_cart_href">Cart</a></div>
+        </div>
+    </nav>
+    <nav class="nav_bar2">
+        <div class="nav_bar2_div">
+            <div class="nav_bar2_electronics_div"><a href="">Electronics</a></div>
+            <div><a href="nav_bar2_tv_and_appliances_div">TVs & Appliances</a></div>
+            <div><a href="nav_bar2_men">Men</a></div>
+            <div><a href="nav_bar2_women">Women</a></div>
+            <div><a href="nav_bar2_baby_and_kids">Baby & Kids</a></div>
+            <div><a href="nav_bar2_home_and_furniture">Home & Furniture</a></div>
+            <div><a href="nav_bar2_sport_books_and_more">Sports, Books & More</a></div>
+            <div><a href="nav_offer_zone">Offer Zone</a></div>
+        </div>
+    </nav>
+    <main>
+        <section class="left_corner_checkbox_section">
+            <div class="left_corner_checkbox_section_div">
+                <div class="left_corner_checkbox_filters_div"><span
+                        class=left_corner_checkbox_filters_span>Filters</span></div>
+                <div class="left_corner_checkbox_mobile_list_main_div">
+                    <div class="left_corner_checkbox_categories_div"><a href=""
+                            id="left_corner_checkbox_categories_href">CATEGORIES</a></div>
+                    <div class="left_corner_checkbox_mobiles_and_accessories_div">Mobiles & Accessories</div>
+                    <div class="left_corner_checkbox_mobiles_div"><a href=""
+                            id="left_corner_checkbox_mobiles_href">Mobiles</a></div>
+                </div>
+                <div class="price_max_min_div">
+                    <div class="price_div">PRICE</div>
+                    <form action="">
+                        <!-- <label for="price">Volume (between 0 and 50):</label> -->
+                        <input type="range" id="price" name="price" min="1000" max="50000">
+                        <div class="max_min_div"></div>
+                        <select name="" id="min_range">
+                            <option value="1000">Min</option>
+                            <option value="2000">2000</option>
+                            <option value="4000">4000</option>
+                            <option value="7000">7000</option>
+                            <option value="10000">10000</option>
+                            <option value="13000">13000</option>
+                            <option value="16000">16000</option>
+                            <option value="20000">20000</option>
+                            <option value="25000">25000</option>
+                            <option value="30000">30000</option>
+                            <option value="50000">50000</option>
+                        </select>
+                        <span class="min_to_max_span">to</span>
+                        <select name="" id="max_range">
+                            <option value="2000">2000</option>
+                            <option value="4000">4000</option>
+                            <option value="7000">7000</option>
+                            <option value="10000">10000</option>
+                            <option value="13000">13000</option>
+                            <option value="16000">16000</option>
+                            <option value="20000">20000</option>
+                            <option value="25000">25000</option>
+                            <option value="30000">30000</option>
+                            <option value="50000">50000</option>
+                            <option value="50000+">50000+</option>
+                        </select>
+                    </form>
+                </div>
+            </div>
+            <div class="flipkart_assured_div">
+                <form action="">
+                    <input type="radio" id="flipkart_assured" name="flipkart_assured">
+                    <label for="flipkart_assured"><img src="img.flipkart/flipkartassured.png" alt=""
+                            id="flipkart_assured_img"></label>
+            </div>
+            </form>
+            <div class="left_corner_checkbox_ram_checkbox">
+                <div class="left_corner_checkbox_ram_div"><a href="" id="left_corner_checkbox_ram_href">RAM</a></div>
+                <form action="">
+                    <div class="six_gb_and_above_div">
+                        <input type="radio" id="six_gb_and_above_radio" name="six_gb_and_above_radio">
+                        <label for="six_gb_and_above_radio" id="six_gb_and_above_label">6 GB & Above</label>
+                    </div>
+                    <div class="four_gb_div">
+                        <input type="radio" id="four_gb_radio" name="four_gb_radio">
+                        <label for="four_gb_radio" id=four_gb_label>4GB</label>
+                    </div>
+                    <div class="three_gb_div">
+                        <input type="radio" id="three_gb_radio" name="three_gb_radio">
+                        <label for="three_gb_radio" id="three_gb_label">3GB</label>
+                    </div>
+                    <div class="two_gb_div">
+                        <input type="radio" id="two_gb_radio" name="two_gb_radio">
+                        <label for="two_gb_radio" id="two_gb_label">2GB</label>
+                    </div>
+                    <div class="one_gb_div">
+                        <input type="radio" id="one_gb_radio" name="one_gb_radio">
+                        <label for="one_gb_radio" id="one_gb_label">1GB</label>
+                    </div>
+                </form>
+            </div>
+            <div class="left_corner_checkbox_brand_checkbox">
+                <div class="left_corner_checkbox_brand_div"><a href="" id="left_corner_checkbox_brand_href">BRAND</a>
+                </div>
+                <form action="">
+                    <div class="mi_div">
+                        <input type="radio" id="mi_div_radio" name="mi_div_radio">
+                        <label for="mi_div_radio" id="mi_div_label">Mi</label>
+                    </div>
+                </form>
+            </div>
+            <div class="left_corner_checkbox_customer_ratings_checkbox">
+                <div class="left_corner_checkbox_customer_ratings_div"><a href=""
+                        id="left_corner_checkbox_customer_href">CUSTOMER RATINGS</a></div>
+                <div class="four_and_above_div">
+                    <input type="radio" id="four_and_above_radio" name="four_and_above_radio">
+                    <label for="four_and_above_radio" id="four_and_above_label">4* & Above</label>
+                </div>
+                <div class="three_and_above_div">
+                    <input type="radio" id="three_and_above_radio" name="three_and_above_radio">
+                    <label for="three_and_above_radio" id="three_and_above_label">3* & Above</label>
+                </div>
+                <div class="two_and_above_div">
+                    <input type="radio" id="two_and_above_radio" name="two_and_above_radio">
+                    <label for="two_and_above_radio" id="two_and_above_label">2* & Above</label>
+                </div>
+                <div class="one_and_above_div">
+                    <input type="radio" id="one_and_above_radio" name="1_and_above">
+                    <label for="1_and_above" id="one_and_above_label">1* & Above</label>
+                </div>
+            </div>
+            <div class="left_corner_checkbox_internal_storage_checkbox">
+                <div class="left_corner_checkbox_internal_storage_div"><a href=""
+                        id="left_corner_checkbox_internal_storage_href">INTERNAL STORAGE</a></div>
+                <div class="two_five_six_gb_and_above_div">
+                    <input type="radio" id="two_five_six_gb_and_above_radio" name="two_five_six_gb_and_above_radio">
+                    <label for="two_five_six_gb_and_above_radio" id="two_five_six_gb_and_above_label">256GB And
+                        Above</label>
+                </div>
+                <div class="one_twenty_eight_to_two_five_six_gb_and_above_div">
+                    <input type="radio" id="one_twenty_eight_to_two_five_six_gb_and_above_radio"
+                        name="one_twenty_eight_to_two_five_six_gb_and_above_radio">
+                    <label for="one_twenty_eight_to_two_five_six_gb_and_above_radio"
+                        id="one_twenty_eight_to_two_five_six_gb_and_above_label">128 to 255.9GB</label>
+                </div>
+                <div class="sixty_four_to_one_twenty_eight_gb_and_above_div">
+                    <input type="radio" id="sixty_four_to_one_twenty_eight_gb_and_above_radio"
+                        name="sixty_four_to_one_twenty_eight_gb_and_above_radio">
+                    <label for="sixty_four_to_one_twenty_eight_gb_and_above_radio"
+                        id="sixty_four_to_one_twenty_eight_gb_and_above_label">64 to 127.9GB</label>
+                </div>
+                <div class="thirty_two_to_sixty_four_gb_and_above_div">
+                    <input type="radio" id="thirty_two_to_sixty_four_gb_and_above_radio"
+                        name="thirty_two_to_sixty_four_gb_and_above_radio">
+                    <label for="thirty_two_to_sixty_four_gb_and_above_radio"
+                        id="thirty_two_to_sixty_four_gb_and_above_label">32 to 63.9GB</label>
+                </div>
+                <div class="sixteen_to_thity_two_gb_and_above_div">
+                    <input type="radio" id="sixteen_to_thity_two_gb_and_above_radio"
+                        name="sixteen_to_thity_two_gb_and_above_radio">
+                    <label for="sixteen_to_thity_two_gb_and_above_radio" id="sixteen_to_thity_two_gb_and_above_label">16
+                        to 31.9GB</label>
+                </div>
+                <div class="eight_to_sixteen_gb_and_above_div">
+                    <input type="radio" id="eight_to_sixteen_gb_and_above_radio"
+                        name="eight_to_sixteen_gb_and_above_radio">
+                    <label for="eight_to_sixteen_gb_and_above_radio" id="eight_to_sixteen_gb_and_above_label">8 to
+                        15.9GB</label>
+                </div>
+            </div>
+            <div class="left_corner_checkbox_battery_capacity_checkbox">
+                <div class="left_corner_checkbox_battery_capacity_div"><a href=""
+                        id="left_corner_checkbox_battery_capacity_href">BATTERY CAPACITY</a></div>
+                <div class="two_thousand_to_two_thousand_nine_hundered_nine_div">
+                    <input type="radio" id="two_thousand_to_two_thousand_nine_hundered_nine_radio"
+                        name="two_thousand_to_two_thousand_nine_hundered_nine_radio">
+                    <label for="two_thousand_to_two_thousand_nine_hundered_nine_radio"
+                        id="two_thousand_to_two_thousand_nine_hundered_nine_label">2000 to 2999 mAh</label>
+                </div>
+                <div class="three_thousand_to_three_thousand_nine_hundered_nine_div">
+                    <input type="radio" id="three_thousand_to_three_thousand_nine_hundered_nine_radio"
+                        name="three_thousand_to_three_thousand_nine_hundered_nine_radio">
+                    <label for="three_thousand_to_three_thousand_nine_hundered_nine_radio"
+                        id="three_thousand_to_three_thousand_nine_hundered_nine_label">3000 to 3999 mAh</label>
+                </div>
+                <div class="four_thousand_to_four_thousand_nine_hundered_nine_div">
+                    <input type="radio" id="four_thousand_to_four_thousand_nine_hundered_nine_radio"
+                        name="four_thousand_to_four_thousand_nine_hundered_nine_radio">
+                    <label for="four_thousand_to_four_thousand_nine_hundered_nine_radio"
+                        id="four_thousand_to_four_thousand_nine_hundered_nine_label">4000 to 4999 mAh</label>
+                </div>
+                <div class="five_thousand_and_above_div">
+                    <input type="radio" id="five_thousand_and_radio" name="five_thousand_and_above_radio">
+                    <label for="five_thousand_and_above_radio" id="five_thousand_and_above_label">5000 mAh &
+                        Above</label>
+                </div>
+            </div>
+
+            </div>
+
+        </section>
+        
+        <section class = "main_mobiles_section">
+        <div class = "main_mobile_section_items_container_div">
+            <div class = "main_mobile_section_items_container_secondary">
+                <span class = "main_mobile_section_home_span">
+                    <a href="" id = "main_mobile_section_home_href">Home</a>
+                </span>
+                <span class = "main_mobile_section_mobiles_and_accessories_span">
+                    <a href="" id = "main_mobile_section_mobiles_and_accessories_href">Mobiles & Accessories</a>
+                </span>
+                <span class = "main_mobile_section_mobiles_span">
+                    <a href="" id = "main_mobile_section_mobiles_href">Mobiles</a>
+                </span>
+            </div >
+            <div class = "main_mobile_section_latest_from_mi_div">
+                <span class = "main_mobile_section_latest_from_mi_span">Latest from Mi :</span>
+                <span><a href="" id = "main_mobile_section_latest_from_mi_href">Redmi Go</a></span>
+            </div>
+            <div class = "main_mobile_section_mi_mobiles_div">
+                <span class = "main_mobile_section_mi_mobiles_span">Mi Mobiles</span>
+                <span class = "main_mobile_section_mi_mobiles_description_span">(Showing 1 - 24 products of 255 products)</span>
+            </div>
+            <div class = "main_mobile_section_sorting_mobiles_div">
+                <span class = "main_mobile_section_sortby_span">Sort By</span>
+                <span class = "main_mobile_section_popularity_span"><a href="" class = "main_mobile_section_popularity_href">Popularity</a></span>
+                <span class = "main_mobile_section_low_to_high_span">Price--Low to High</span>
+                <span class = "main_mobile_section_high_to_low_span">Price--High to Low</span>
+                <span class = "main_mobile_section_newest_first_span">Newest First</span>
+            </div>
+        </div>
+        <!-- list of mobile phones and their details -->
+        <!-- redmi_8a_dual_seablue -->
+        <div class = "mobile_section_redmi_dual_seablue">
+            <div class = "redmi_8a_dual_img_radiobutton_div">
+                <img src="img.flipkart/mi_redmi_dual_img.jpeg" class = "redmi_8a_dual_img" alt="">
+                <div class = "redmi_8a_dual_radio_button_div">
+                    <input type="radio" id = "redmi_8a_dual_radio_button">
+                    <label for="" id = "redmi_8a_dual_radio_button_label">Add to Compare</label>
+                </div>
+            </div>
+            <div class = "redmi_8a_dual_details_main_div">
+                <div class = "redmi_8a_dual_heading_div">
+                    <a href="" class = "redmi_8a_dual_heading_href">Redmi 8A Dual (Sea Blue, 32 GB)</a>
+                </div>
+                <div class = "redmi_8a_ratings_div">
+                    <a href="" class = "redmi_8a_ratings_img_href"><img src="img.flipkart/flipkart_rating.JPG" alt=""class = "redmi_8a_ratings_img"></a>
+                    <span class = "redmi_8a_ratings_info_span">468 Ratings & 24 Reviews</span>
+                </div>
+                <div class = "redmi_8a_dual_description_div">
+                    <ul class = "redmi_8a_dual_description_ul">
+                        <li class = "redmi_8a_dual_description_li"> 2 GB RAM| 32 GB ROM | Expandabale Upto 512 GB</li>
+                        <li class = "redmi_8a_dual_description_li">15.8 cm (6.22 inch) Full HD+ Display</li>
+                        <li class = "redmi_8a_dual_description_li">13 MP + 2MP | 8MP Dual Front Camera</li>
+                        <li class = "redmi_8a_dual_description_li">5000 mAh Battery</li>
+                        <li class = "redmi_8a_dual_description_li">Snapdragon 439 Octa Core Processor</li>
+                        <li class = "redmi_8a_dual_description_li">1 year manufacturer warranty for device and 6 months manufacturer warranty for in-box accessories including batteries from the data of purchase </li>
+                    </ul>
+                </div>
+            </div>
+            <div class = "redmi_8a_dual_price_div">
+                <div class = "redmi_8a_price_div">
+                    <span class = "redmi_8a_price_span">₹8,498</span>
+                    <img src="img.flipkart/flipkartassured.png" alt="" class = "flipkart_assured_img1">
+                </div>
+                <span class = "redmi_8a_dual_emi_details">No Cost EMI</span>
+            </div>
+        </div>
+        <!-- redmi_8a_dual_midnight grey -->
+        <div class = "mobile_section_redmi_dual_seablue">
+            <div class = "redmi_8a_dual_img_radiobutton_div">
+                <img src="img.flipkart/mi_redmi_dual_img.jpeg" class = "redmi_8a_dual_img" alt="">
+                <div class = "redmi_8a_dual_radio_button_div">
+                    <input type="radio" id = "redmi_8a_dual_radio_button">
+                    <label for="" id = "redmi_8a_dual_radio_button_label">Add to Compare</label>
+                </div>
+            </div>
+            <div class = "redmi_8a_dual_details_main_div">
+                <div class = "redmi_8a_dual_heading_div">
+                    <a href="" class = "redmi_8a_dual_heading_href">Redmi 8A Dual (Midnight Grey, 64 GB)</a>
+                </div>
+                <div class = "redmi_8a_ratings_div">
+                    <a href="" class = "redmi_8a_ratings_img_href"><img src="img.flipkart/flipkart_rating.JPG" alt=""class = "redmi_8a_ratings_img"></a>
+                    <span class = "redmi_8a_ratings_info_span">517 Ratings & 42 Reviews</span>
+                </div>
+                <div class = "redmi_8a_dual_description_div">
+                    <ul class = "redmi_8a_dual_description_ul">
+                        <li class = "redmi_8a_dual_description_li"> 2 GB RAM| 32 GB ROM | Expandabale Upto 512 GB</li>
+                        <li class = "redmi_8a_dual_description_li">15.8 cm (6.22 inch) Full HD+ Display</li>
+                        <li class = "redmi_8a_dual_description_li">13 MP + 2MP | 8MP Dual Front Camera</li>
+                        <li class = "redmi_8a_dual_description_li">5000 mAh Battery</li>
+                        <li class = "redmi_8a_dual_description_li">Snapdragon 439 Octa Core Processor</li>
+                        <li class = "redmi_8a_dual_description_li">1 year manufacturer warranty for device and 6 months manufacturer warranty for in-box accessories including batteries from the data of purchase </li>
+                    </ul>
+                </div>
+            </div>
+            <div class = "redmi_8a_dual_price_div">
+                <div class = "redmi_8a_price_div">
+                    <span class = "redmi_8a_price_span">₹9,994</span>
+                    <img src="img.flipkart/flipkartassured.png" alt="" class = "flipkart_assured_img1">
+                </div>
+                <span class = "redmi_8a_dual_emi_details">No Cost EMI</span>
+            </div>
+        </div>
+        <!-- redmi_8_ruby_red -->
+        <div class = "mobile_section_redmi_dual_seablue">
+            <div class = "redmi_8a_dual_img_radiobutton_div">
+                <img src="img.flipkart/redmi_8_ruby_img.jpeg" class = "redmi_8a_dual_img" alt="">
+                <div class = "redmi_8a_dual_radio_button_div">
+                    <input type="radio" id = "redmi_8a_dual_radio_button">
+                    <label for="" id = "redmi_8a_dual_radio_button_label">Add to Compare</label>
+                </div>
+            </div>
+            <div class = "redmi_8a_dual_details_main_div">
+                <div class = "redmi_8a_dual_heading_div">
+                    <a href="" class = "redmi_8a_dual_heading_href">Redmi 8 (Ruby Red, 64 GB)</a>
+                </div>
+                <div class = "redmi_8a_ratings_div">
+                    <a href="" class = "redmi_8a_ratings_img_href"><img src="img.flipkart/flipkart_rating.JPG" alt=""class = "redmi_8a_ratings_img"></a>
+                    <span class = "redmi_8a_ratings_info_span">61,9700 Ratings & 46,77 Reviews</span>
+                </div>
+                <div class = "redmi_8a_dual_description_div">
+                    <ul class = "redmi_8a_dual_description_ul">
+                        <li class = "redmi_8a_dual_description_li"> 4 GB RAM| 32 GB ROM | Expandabale Upto 512 GB</li>
+                        <li class = "redmi_8a_dual_description_li">15.8 cm (6.22 inch) Full HD+ Display</li>
+                        <li class = "redmi_8a_dual_description_li">12 MP + 2MP | 8MP Dual Front Camera</li>
+                        <li class = "redmi_8a_dual_description_li">5000 mAh Battery</li>
+                        <li class = "redmi_8a_dual_description_li">Snapdragon 439 Octa Core Processor</li>
+                        <li class = "redmi_8a_dual_description_li">1 year manufacturer warranty for device and 6 months manufacturer warranty for in-box accessories including batteries from the data of purchase </li>
+                    </ul>
+                </div>
+            </div>
+            <div class = "redmi_8a_dual_price_div">
+                <div class = "redmi_8a_price_div">
+                    <span class = "redmi_8a_price_span">₹9,799</span>
+                    <img src="img.flipkart/flipkartassured.png" alt="" class = "flipkart_assured_img1">
+                </div>
+                <span class = "redmi_8a_dual_emi_details">No Cost EMI</span>
+            </div>
+        </div>
+        <!-- Mi A3 -->
+        <!-- <div class = "mobile_section_redmi_dual_seablue">
+            <div class = "redmi_8a_dual_img_radiobutton_div">
+                <img src="img.flipkart/MI_A3_img.jpeg" class = "redmi_8a_dual_img" alt="">
+                <div class = "redmi_8a_dual_radio_button_div">
+                    <input type="radio" id = "redmi_8a_dual_radio_button">
+                    <label for="" id = "redmi_8a_dual_radio_button_label">Add to Compare</label>
+                </div>
+            </div>
+            <div class = "redmi_8a_dual_details_main_div">
+                <div class = "redmi_8a_dual_heading_div">
+                    <a href="" class = "redmi_8a_dual_heading_href">Mi A3 (More Than White, 128 GB)</a>
+                </div>
+                <div class = "redmi_8a_ratings_div">
+                    <a href="" class = "redmi_8a_ratings_img_href"><img src="img.flipkart/flipkart_rating.JPG" alt=""class = "redmi_8a_ratings_img"></a>
+                    <span class = "redmi_8a_ratings_info_span">11,484 Ratings & 1,023 Reviews</span>
+                </div>
+                <div class = "redmi_8a_dual_description_div">
+                    <ul class = "redmi_8a_dual_description_ul">
+                        <li class = "redmi_8a_dual_description_li"> 6 GB RAM| 128 GB ROM | Expandabale Upto 256 GB</li>
+                        <li class = "redmi_8a_dual_description_li">15.44 cm (6.08 inch) HD+ Display</li>
+                        <li class = "redmi_8a_dual_description_li">48 MP + 8MP + 2MP | 32MP Front Camera</li>
+                        <li class = "redmi_8a_dual_description_li">4030 mAh Battery</li>
+                        <li class = "redmi_8a_dual_description_li">Qualcomm Snapdragon 665 Processor</li>
+                        <li class = "redmi_8a_dual_description_li">Brand Warranty of 1 Year Available for Mobile and 6 Months for Accessories</li>
+                    </ul>
+                </div>
+            </div>
+            <div class = "redmi_8a_dual_price_div">
+                <div class = "redmi_8a_price_div">
+                    <span class = "redmi_8a_price_span">₹9,799</span>
+                    <img src="img.flipkart/flipkartassured.png" alt="" class = "flipkart_assured_img1">
+                </div>
+                <span class = "redmi_8a_dual_emi_details">No Cost EMI</span>
+            </div>
+        </div> -->
+
+        </section>
+        <footer class = "footer_main">
+            <!-- <div class = "footer_section1"> 
+                <div><a href="">ABOUT</a></div>
+                <div><a href="">HELP</a></div>
+                <div><a href="">POLICY</a></div>
+                <div><a href="">SOCIAL</a></div>
+                <div><a href="">Mail Us:</a></div>
+                <div><a href="">Registered Office Address:</a></div>
+            </div>
+            <div class = "footer_section2">
+                <div><a href="">Contact Us</a></div>
+                <div><a href="">Payments</a></div>
+                <div><a href="">Return Policy</a></div>
+                <div><a href="">Facebook</a></div>
+                <div>Flipkart Internet Private Limited,Buildings Alyssa, Begonia &Clove Embassy Tech Villag Outer Ring Road, Devarabeesanahalli Village,Bengaluru, 560103,Karnataka, India</div>
+                <div>Flipkart Internet Private Limited,Buildings Alyssa, Begonia & Clove Embassy Tech Village Outer Ring Road, Devarabeesanahalli Village,Bengaluru, 560103,Karnataka, India CIN : U51109KA2012PTC06610 Telephone: 1800 208 9898</div>
+            </div> -->
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class = "dorder_div">
+
+            </div>
+            <br>
+            <br>
+            <div class = "footer_section1">
+                <div><a href="" class = "footer_section1_tiles">Sell on Flipkart</a></div>
+                <div><a href="" class = "footer_section1_tiles">Avertise</a></div>
+                <div><a href="" class = "footer_section1_tiles">Gift Cards</a></div>
+                <div><a href="" class = "footer_section1_tiles">Help Centre</a></div>
+                <div><a href="" class = "footer_section1_tiles">Sell on Flipkart</a></div>
+                <div><a href="" class = "footer_section1_tiles">© 2007-2020 Flipkart.com</a></div>
+                <div><a href="" class = "footer_section1_tiles"><img src="img.flipkart/flipkart_payment_methods.svg" alt=""></a></div>
+            </div>
+        </footer>
+       
+
+    </main>
+
+
+</body>
+
+</html>
