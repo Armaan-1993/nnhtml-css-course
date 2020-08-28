@@ -1,7 +1,69 @@
 body {
     margin: 0 auto;
 }
-.footer-container {
+
+/* testimonials section */
+
+.testomonials-div {
+    height: 603px;
+    background-color: #1175c9;
+}
+.poster-container {
+    width: 561px;
+    height: 363px;
+    /* background-color: #ffffff; */
+    box-shadow: 0px 3px 5px #00000029;
+    border: 1px solid #b7babc66;
+    border-radius: 8px;
+    opacity: 1;
+    background: #ffffff 0% 0% no-repeat padding-box;
+}
+.image-border {
+    width: 102px;
+    height: 102px;
+    border: 2px solid #1175c9;
+    opacity: 1;
+    border-radius: 56px;
+}
+.user-name {
+    text-align: left;
+    font-family: normal normal medium Neue Haas Unica 24px;
+    letter-spacing: 0.38px;
+    color: #0f1921;
+    opacity: 1;
+    font-size: 24px;
+    font-weight: normal;
+}
+.user-desihgnation {
+    text-align: left;
+    font-family: normal medium 16px/63px Neue Haas Unica;
+    letter-spacing: 0.26px;
+    color: #595e64;
+    opacity: 1;
+    font-size: 16px;
+}
+.about {
+    width: 401px;
+    height: 136px;
+    text-align: left;
+    font-family: normal normal normal 20px/36px Neue Haas Unica;
+    letter-spacing: 0.72px;
+    color: #40464e;
+    opacity: 1;
+    font-size: 20px;
+}
+.heading-div {
+    /* background-color: greenyellow; */
+    margin-top: 39px;
+}
+.decription-div {
+    /* background-color: green; */
+    margin-top: 30px;
+}
+
+/* address section */
+
+.address-container {
     height: 332px;
     background-color: #feda31;
 }
@@ -9,7 +71,7 @@ body {
     /* background-color: greenyellow; */
     padding-top: 61px;
 }
-.text-center {
+.form {
     font-family: normal normal medium 48px/63px Neue Haas Unica;
     letter-spacing: 1.15px;
     color: #1175c9;
@@ -47,3 +109,5 @@ body {
     position: relative;
     right: 5px;
 }
+
+/* footer2 */
